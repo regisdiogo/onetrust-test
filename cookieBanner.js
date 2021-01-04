@@ -21,12 +21,13 @@ const getUserCrossConsentObject = function (userId) {
   });
   console.log(userId);
   return `<script type="text/javascript">
-  var OneTrust = {
-    dataSubjectParams: {
-      id: '${userId}',
-      token : '${token}'
-    }
-  };
+      var OneTrust = {
+        dataSubjectParams: {
+          id: '${userId}',
+          isAnonymous: false,
+          token : '${token}'
+        }
+      };
   </script>`;
 }
 
