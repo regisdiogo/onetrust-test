@@ -1,0 +1,19 @@
+{
+  "name": "onetrust-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/regisdiogo/onetrust-test.git",
+  "author": "Regis Diogo de Siqueira Filho <regisdiogof@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2"
+  }
+}
