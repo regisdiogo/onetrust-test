@@ -37,7 +37,5 @@ exports.cookieBanner = function (uuid, userId) {
 }
 
 exports.getUser = function () {
-  return {
-    id: uuidv4(),
-  };
+  return uuidv4();
 }
